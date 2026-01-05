@@ -155,4 +155,4 @@ if uploaded_file is not None:
         else:
             st.error(f"Dataset must contain these columns: {', '.join(feature_cols)} and '{target_col}'")
 else:
-    st.info("Awaiting file upload. Please upload your Excel file from the sidebar.")q
+    st.info("Awaiting file upload. Please upload your Excel file from the sidebar.")
